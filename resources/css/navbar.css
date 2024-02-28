@@ -1,0 +1,65 @@
+body{
+    background-color: aqua;
+}
+
+/* Navbar Starts Here */
+
+nav{
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    padding: 10px 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav .brand-name,
+nav .nav-hide{
+    flex: 1;
+    text-transform: uppercase;
+}
+
+nav .brand-name h1{
+    line-height: 40px;
+}
+
+nav .nav-hide{
+    height: 40px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+nav .nav-hide .nav-links-container ul.nav-links-list{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav .nav-hide .nav-links-container .nav-links-list li{
+    line-height: 40px;
+    margin: 0 10px;
+}
+
+nav .nav-hide .nav-links-container .nav-links-list li a{
+    color: royalblue;
+    font-weight: 600;
+}
+
+nav .nav-hide .nav-links-container .nav-links-list li:hover{
+    border-bottom: 2px solid #fff;
+}
+
+nav .nav-hide .nav-button{
+    height: 40px;
+    width: 40px;
+}
+
+nav .nav-hide .nav-button.nav-open,
+nav .nav-hide .nav-button.nav-close{
+    display: none;
+}
+
+/* Navbar Ends Here*/

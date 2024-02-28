@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Kode_Mono;
+    src: url(../../vendor/fonts/Kode_Mono/KodeMono-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Kode_Mono, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: transparent;
+    outline: none;
+    scroll-behavior: smooth;
+    letter-spacing: 1px;
+    transition: all .1s ease;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
