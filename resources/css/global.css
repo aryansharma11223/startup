@@ -14,6 +14,7 @@
     outline: none;
     scroll-behavior: smooth;
     letter-spacing: 1px;
+    user-select: none;
     transition: all .1s ease;
 }
 
